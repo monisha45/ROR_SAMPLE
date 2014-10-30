@@ -47,7 +47,6 @@ class CustomersController < ApplicationController
 		else
 			flash[:error] = "Error while deleting customer"
 		end
-		redirect_to customers_path
 	end
 
 	private
